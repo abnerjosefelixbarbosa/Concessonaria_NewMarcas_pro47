@@ -3,7 +3,7 @@ create database concessionaria;
 use concessionaria;
 
 create table if not exists carro (
-Idcarro int primary key,
+Idcarro int primary key auto_increment,
 Nome_marca varchar (25) not null,
 Nome_modelo varchar (25) not null,
 Cor varchar (25) not null,
